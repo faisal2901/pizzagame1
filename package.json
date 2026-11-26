@@ -1,0 +1,17 @@
+{
+  "name": "pizza-empire",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pizza Empire mobile game",
+  "scripts": {
+    "web": "node scripts/copy-web.js",
+    "android": "node scripts/copy-web.js && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "6.2.1",
+    "@capacitor/core": "6.2.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "6.2.1"
+  }
+}

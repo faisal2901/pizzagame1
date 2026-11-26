@@ -1,0 +1,7 @@
+{
+  "appId": "com.codixa.pizzaempire",
+  "appName": "Pizza Empire",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": { "backgroundColor": "#2b5a40" }
+}
